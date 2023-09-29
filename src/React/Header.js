@@ -47,7 +47,7 @@ const Header = () => {
                         <div className="text-white text-2xl font-semibold">
                             Н.О
                         </div>
-                        <nav className="hidden md:flex justify-between items-center">
+                        <nav className="flex justify-between items-center">
                             <ul className="flex space-x-4">
                                 <li className="flex row-auto gap-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
