@@ -32,3 +32,8 @@
 .text {
     color: #63cb77;
 }
+
+.border {
+    border-radius: 8px;
+    border: solid 2px #008069;
+}

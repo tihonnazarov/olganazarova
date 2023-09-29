@@ -11,28 +11,28 @@ const Portfolio = () => {
             title: '',
             description: 'Спектакль "Медиум" ММТ Геликон Опера Мягкие декорации и скатерть',
             image: med,
-            link: 'https://example.com/project1',
+            link: 'https://www.instagram.com/p/Cxx1AWzIKbB/?igshid=MzRlODBiNWFlZA==',
         },
         {
             id: 2,
             title: '',
             description: 'Спектакль "Иоланта" ММТ Геликон Опера Тюль',
             image: iolanta,
-            link: 'https://example.com/project2',
+            link: 'https://www.instagram.com/p/Cxx1PfkoSgE/?igshid=MzRlODBiNWFlZA==',
         },
         {
             id: 3,
             title: '',
             description: 'Спектакль "Золушка" ММТ Геликон Опера Мягкие декорации',
             image: zolshka,
-            link: 'https://example.com/project3',
+            link: 'https://www.instagram.com/p/Cxx1KkyIwmt/?igshid=MzRlODBiNWFlZA==',
         },
         {
             id: 4,
             title: '',
             description: 'Спектакль "Аида" ММТ Геликон Операgig Занавес',
             image: aida,
-            link: 'https://example.com/project4',
+            link: 'https://www.instagram.com/p/Cxx0rLDoby_/?igshid=MzRlODBiNWFlZA==',
         },
     ];
 
@@ -49,7 +49,7 @@ const Portfolio = () => {
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="w-full h-80 object-cover"
+                                className="w-full h-80 object-cover border"
                             />
                             <div className="p-4">
                                 <h3 className="text-xl text-white font-semibold mb-2">
