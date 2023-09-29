@@ -49,7 +49,7 @@ class Calculator extends Component {
                             placeholder="Ширина"
                         />
                         <p>x</p>
-                        <h2>750</h2>
+                        <h2>{num3}</h2>
                         <p>=</p>
                         <h2>{result}</h2>
                         <button className="hover:text-green-900 transition duration-300 inline-block but text-white py-1 px-4 rounded-md " onClick={this.calculateResult}>Расчёт</button>
