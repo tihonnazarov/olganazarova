@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font {
+    font-family: 'Roboto Slab', serif;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    black;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    black;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    black;
+}
+.cl {
+    background-color: #233138;
+}
+.cll {
+    background-color: #111b21;
+}
+.box {
+    background-color: #008069;
+}
+.but {
+    background-color: #00a884;
+}
+.text {
+    color: #63cb77;
+}
