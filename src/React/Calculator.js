@@ -31,7 +31,7 @@ class Calculator extends Component {
             <div className="cll grid place-items-center font">
                 <h2 className="text-2xl font-semibold mb-6 text-white">Предварительный расчёт стоимости изготовления</h2>
                 <div>
-                    <div className="box flex flex-nowrap gap-4 p-4 rounded-lg overflow-hidden shadow-lg mb-4 md:w-40">
+                    <div className="box md:flex md:flex-nowrap gap-4 p-4 rounded-lg overflow-hidden shadow-lg mb-4 md:w-40">
                         <input
                             type="number"
                             name="num1"
